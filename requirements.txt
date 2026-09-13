@@ -2,3 +2,4 @@ gradio
 pandas
 numpy
 matplotlib
+reportlab
