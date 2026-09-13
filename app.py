@@ -315,6 +315,5 @@ with gr.Blocks(title="GeoShield Hazard Dashboard") as demo:
 # ==============================================================================
 # 5. STREAMLIT EMBEDDING WRAPPER
 # ==============================================================================
-st.set_page_config(page_title="GeoShield Dashboard", layout="wide")
-app_url, local_url, _ = demo.launch(prevent_thread_lock=True)
-components.iframe(local_url, height=900, scrolling=True)
+if __name__ == "__main__":
+    demo.launch(share=True)
