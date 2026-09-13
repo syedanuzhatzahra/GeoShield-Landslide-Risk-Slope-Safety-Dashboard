@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1tktmb6lnOG6W5LLwSgCFf0ZKnju0Sw1V
 """
 
-!pip install gradio reportlab -q
+
 
 import subprocess
 import sys
