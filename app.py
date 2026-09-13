@@ -320,6 +320,7 @@ with gr.Blocks(title="GeoShield Hazard Dashboard") as demo:
                 outputs=[out_t2_status, out_t2_recs, out_t2_pdf]
             )
 
-# Launch App
-demo.launch(share=True, debug=True)
+# Launch Gradio App for Deployment
+if __name__ == "__main__":
+    demo.launch(server_name="0.0.0.0", server_port=7860)
 
