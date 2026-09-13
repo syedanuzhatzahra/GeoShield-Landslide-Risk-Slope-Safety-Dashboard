@@ -1,5 +1,2 @@
-gradio
-pandas
-numpy
-matplotlib
+streamlit
 reportlab
