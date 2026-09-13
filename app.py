@@ -9,17 +9,6 @@ Original file is located at
 
 
 
-import subprocess
-import sys
-
-# Automatic installation of required packages in Google Colab
-try:
-    import gradio as gr
-    import reportlab
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "gradio", "reportlab", "-q"])
-    import gradio as gr
-    import reportlab
 
 import math
 import os
